@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link | HTML</title>
+</head>
+<body>
+    
+    <!-- ini menuju internal hyperlink -->
+    <a href="about.html#p6" target="_blank" title="halaman about">Klik ini untuk menuju halaman About</a>
+
+    <hr>
+
+    <!-- ini menuju eksternal hyperlink -->
+    <a href="http://youtube.com" target="_blank" title="halaman youtube">Klik ini untuk menuju youtube</a>
+
+    <hr>
+
+    <!-- Menggunakan gambar untuk berpindah halaman -->
+    <a href="latihan/latihan-gambar.html" target="_blank">
+        <img src="images/flower9.jpg" width="250px" height="250px" alt="">
+    </a>
+    <button onclick="document.location='latihan/latihan-gambar.html'">Klik</button>
+
+    <!-- absolute url => http://youtube.com => menggunakan hyperlink external (url diluar projek) -->
+    <!-- relative url => index.html => menggunakan hyperlink internal (masih dalam satu projek) -->
+</body>
+</html>

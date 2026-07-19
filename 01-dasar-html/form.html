@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form | HTML</title>
+</head>
+<body>
+    <!-- method = "post" => digunakan untuk data rahasia atau penting -->
+    <!-- method = "get" => digunakan untuk data biasa -->
+    <!-- html hanya bisa menggunakan method ="get" -->
+    <form action="tujuan.html" method="get">
+        <label for="username">Username</label> <br>
+        <input type="text" name="username" id="username" style="margin-bottom: 20px;"> <br>
+
+        <label for="password">Password</label> <br>
+        <input type="password" name="password" id="password" style="margin-bottom: 20px;"> <br>
+
+        <label for="tahun-lahir">Tahun Lahir</label> <br>    
+        <select name="tahun-lahir" id="tahun-lahir">
+            <option value="">Pilih salah satu</option>
+            <option value="2000">2000</option>
+            <option value="2001">2001</option>
+        </select> <br> <br>
+
+        <label for="jenis-kelamin">Jenis Kelamin</label> <br>
+        <input type="radio" name="jenis-kelamin" id="pria" value="pria" checked>
+        <label for="pria">Pria</label>
+        <input type="radio" name="jenis-kelamin" id="wanita" value="wanita">
+        <label for="wanita">Wanita</label> <br> <br>
+
+        <label for="alamat">Alamat</label> <br>
+        <textarea name="alamat" id="alamat" cols="50" rows="10"></textarea> <br> <br>
+
+        <input type="submit" value="kirim"> <br> <br>
+    </form>
+
+</body>
+</html>
+
+ <!-- <input type="date"> <br> <br>
+        <input type="button"> <br> <br>
+        <input type="checkbox"> <br> <br>
+        <input type="color"> <br> <br>
+        <input type="datetime"> <br> <br>
+        <input type="datetime-local"> <br> <br>
+        <input type="email"> <br> <br>
+        <input type="file"> <br> <br>
+        <input type="hidden"> <br> <br>
+        <input type="image"> <br> <br>
+        <input type="month"> <br> <br>
+        <input type="number"> <br> <br>
+        <input type="range"> <br> <br>
+        <input type="reset"> <br> <br>
+        <input type="search"> <br> <br>
+        <input type="tel"> <br> <br>
+        <input type="time"> <br> <br>
+        <input type="url"> <br> <br>
+        <input type="week"> <br> <br> -->

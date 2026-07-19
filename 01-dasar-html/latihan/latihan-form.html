@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Membuat Form Sederhana| HTML</title>
+</head>
+<body>
+    <h1>Form Data Siswa</h1>
+
+    <form action="../tujuan.html" method="get">
+
+        <label for="name">Nama Lengkap</label> <br>
+        <input type="text" name="name" id="name"> <br> <br>
+    
+        <label for="nisn">NISN</label> <br>
+        <input type="text" name="nisn" id="nisn"> <br> <br>
+    
+        <label for="ttl">Tempat Tanggal Lahir</label> <br>
+        <input type="text" name="ttl" id="ttl"> 
+        <input type="date"><br> <br>
+    
+        <label for="agama">Agama</label> <br>
+        <select name="agama" id="agama">
+            <option value="">Pilihan</option>
+            <option value="1">Hindu</option>
+            <option value="2">Islam</option>
+            <option value="3">Kristen</option>
+        </select> <br> <br>
+    
+        <label for="anak">Anak ke-</label> <br>
+        <input type="number" name="anak" id="anak"> <br> <br>
+    
+        <label for="alamat">Alamat Rumah</label> <br>
+        <textarea name="alamat" id="alamat" cols="40" rows="10"></textarea> <br> <br>
+    
+        <label for="jenis-tempat-tinggal">Jenis Tempat Tinggal</label> <br>
+        <input type="radio" name="jenis-tempat-tinggal" id="orang-tua" value="orang-tua">
+        <label for="">Orang Tua</label>
+        <input type="radio" name="jenis-tempat-tinggal" id="sendiri" value="sendiri">
+        <label for="sendiri">Sendiri</label> <br><br>
+    
+        <input type="submit" value="kirimkan" style="background-color: lightgreen;">
+
+    </form>
+
+</body>
+</html>
