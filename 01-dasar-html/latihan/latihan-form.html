@@ -4,43 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Latihan Membuat Form Sederhana| HTML</title>
+    <!-- ================ Style Css ================= -->
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
     <h1>Form Data Siswa</h1>
 
     <form action="../tujuan.html" method="get">
 
-        <label for="name">Nama Lengkap</label> <br>
-        <input type="text" name="name" id="name"> <br> <br>
+        <label for="name">Nama Lengkap</label> 
+        <input type="text" name="name" id="name">
     
-        <label for="nisn">NISN</label> <br>
-        <input type="text" name="nisn" id="nisn"> <br> <br>
+        <label for="nisn">NISN</label> 
+        <input type="text" name="nisn" id="nisn"> 
     
-        <label for="ttl">Tempat Tanggal Lahir</label> <br>
+        <label for="ttl">Tempat Tanggal Lahir</label> 
         <input type="text" name="ttl" id="ttl"> 
-        <input type="date"><br> <br>
+        <input type="date" name="date" id="date">
     
-        <label for="agama">Agama</label> <br>
+        <label for="agama">Agama</label> 
         <select name="agama" id="agama">
             <option value="">Pilihan</option>
             <option value="1">Hindu</option>
             <option value="2">Islam</option>
             <option value="3">Kristen</option>
-        </select> <br> <br>
+        </select> 
     
-        <label for="anak">Anak ke-</label> <br>
-        <input type="number" name="anak" id="anak"> <br> <br>
+        <label for="anak">Anak ke-</label> 
+        <input type="number" name="anak" id="anak"> 
     
         <label for="alamat">Alamat Rumah</label> <br>
-        <textarea name="alamat" id="alamat" cols="40" rows="10"></textarea> <br> <br>
+        <textarea name="alamat" id="alamat" cols="40" rows="10"></textarea> 
     
-        <label for="jenis-tempat-tinggal">Jenis Tempat Tinggal</label> <br>
-        <input type="radio" name="jenis-tempat-tinggal" id="orang-tua" value="orang-tua">
-        <label for="">Orang Tua</label>
-        <input type="radio" name="jenis-tempat-tinggal" id="sendiri" value="sendiri">
-        <label for="sendiri">Sendiri</label> <br><br>
+        <label for="tempat-tinggal">Tempat Tinggal</label> 
+        <input type="radio" name="tempat-tinggal" id="orang-tua" value="orang-tua">
+        <label for="orang-tua">Orang Tua</label>
+        <input type="radio" name="tempat-tinggal" id="sendiri" value="sendiri">
+        <label for="sendiri">Sendiri</label> 
     
-        <input type="submit" value="kirimkan" style="background-color: lightgreen;">
+        <button type="submit">kirim</button>
+        <!-- <input type="submit" value="kirimkan" style="background-color: lightgreen;"> -->
 
     </form>
 

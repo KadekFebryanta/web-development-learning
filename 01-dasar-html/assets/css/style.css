@@ -1,0 +1,113 @@
+/* ============= Google Fonts ============= */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+/* ========== Globals ========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font: "Plus Jakarta Sans", sans-serif;
+
+    --light: #F9F9F9;
+    --blue: #3C91E6;
+    --white: #fff;
+    --gray: #f5f5f5;
+    --black1: #222;
+    --black2: #999;
+    --light-blue: #cfe8ff;
+    --grey: #eee;
+    --dark: #342e37;
+    --dark-grey: #aaaaaa;
+    --red: #db504a;
+    --yellow: #ffce26;
+    --light-yellow: #fff2c6;
+    --orange: #fd7328;
+    --light-orange: #ffe0de;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background: var(--grey);
+    font-family: var(--font);
+    color: var(--black1);
+    overflow-x: hidden;
+}
+
+h1 {
+    padding: 10px;
+    margin-bottom: 16px;
+    background: var(--blue);
+}
+
+form {
+    margin: 30px;
+    padding: 10px;
+    background: var(--light);
+    border-radius: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+textarea,
+select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--dark-grey);
+    border-radius: 10px;
+    font-family: var(--font);
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+    margin-right: 6px;
+    margin-top: 0;
+}
+
+input[type="radio"] + label {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 0;
+    margin-right: 20px;
+    font-weight: normal;
+}
+
+button[type="submit"] {
+    background: var(--blue);
+    color: var(--white);
+    padding: 12px 20px;
+    border: none; /* Menghilangkan garis pinggir bawaan tombol */
+    border-radius: 8px;
+    font-weight: 600;
+    font-family: var(--font);
+    font-size: 16px;
+    cursor: pointer; /* Ubah panah kursor jadi ikon jari menunjuk */
+    transition: background 0.2s ease-in-out; /* Animasi perubahan warna yang mulus */
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    background: var(--dark); /* Warna berubah lebih gelap saat disentuh mouse */
+}
+
+
+
