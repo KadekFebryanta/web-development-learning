@@ -108,6 +108,3 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background: var(--dark); /* Warna berubah lebih gelap saat disentuh mouse */
 }
-
-
-
