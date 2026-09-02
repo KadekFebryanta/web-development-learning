@@ -40,6 +40,8 @@ body {
     line-height: 1.5;
 }
 
+/* =============== Main ================ */
+
 .task-tracker {
     width: 100%;
     max-width: 500px;
@@ -158,3 +160,5 @@ body {
     background-color: var(--emerald-green);
     color: var(--white);
 }
+
+/* =============== Main ================ */
